@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 
-const baseURL = "http://localhost:8080/";
+const baseURL = "http://103.204.189.66:8080/";
 
 export const newCustomerPath = "/admin/newCustomer";
 export const statisticPath = "/admin/statistic";
@@ -13,6 +13,10 @@ export const franchisePath = "/admin/franchise";
 export const customerPath = "/admin/customer";
 export const queryPath = "/admin/query";
 export const publicQueryPath = "/query";
+
+export const APP_NAME = "Perfect Services";
+export const CNG_DES =
+    "“To give real service you must add something which cannot be bought or measured with money, and that is sincerity and integrity.” – Don Alden Adams, President Watch Tower Bible and Tract Society of Pennsylvania";
 
 export class URLS {
     Adminlogin = `${baseURL}employee/login`;

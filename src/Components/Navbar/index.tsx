@@ -19,6 +19,7 @@ import EqualizerIcon from "@material-ui/icons/Equalizer";
 import AddBoxIcon from "@material-ui/icons/AddBox";
 import {
     allCustomerPath,
+    APP_NAME,
     newCustomerPath,
     statisticPath,
     UserInfo,
@@ -71,7 +72,7 @@ function Navbar() {
                         />
                     </IconButton>
                     <Typography variant="h6" className={classes.title}>
-                        Yolo Service
+                        {APP_NAME}
                     </Typography>
 
                     <div>
